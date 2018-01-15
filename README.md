@@ -5,7 +5,7 @@ JavaScirpt30 是 **Wes Bos** 推出的一個 30 天挑戰。項目免費提供�
 > - 作者：[Wes Bos](https://github.com/wesbos)
 > - 官網：[JavaScript30](https://javascript30.com)
 
-## 目录
+## 目錄
 
 1. [x] - JavaScript Drum Kit
 1. [ ] - JS and CSS Clock
