@@ -60,10 +60,11 @@
   <script>
     // 音效播放函式
     function playSound(e) {
+      let keyCode = e.keyCode || this.getAttribute('data-key');
       // 選取 - 對應的按鍵音效
-      const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+      const audio = document.querySelector(`audio[data-key="${keyCode}"]`);
       // 選取 - 對應的按鍵元素
-      const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+      const key = document.querySelector(`div[data-key="${keyCode}"]`);
       // 如果不是指定音效的對應按鍵, 則不繼續且返回
       if (!audio) return;
       // 加入 class - 加入文字高亮效果
@@ -84,9 +85,11 @@
 
     // 監聽 - 鍵盤事件 - 播放音效函式
     window.addEventListener('keydown', playSound, false);
+
     // 選取 - 全部 class 屬性為 key 值的元素
     // 注意 - querySelectorAll 為 nodeList, 使用 Array.form() 轉成陣列！
     const keys = Array.from(document.querySelectorAll('.key')); 
+
     // 監聽 - transitionend 事件( CSS 完成過渡後觸發) - 移除
     keys.forEach(key => key.addEventListener('transitionend', removeTransition, false));
     /**
@@ -94,6 +97,9 @@
      *   return key.addEventListener('transitionend', removeTransition, false);
      * });
      */
+
+    // 監聽 - 點擊事件 - 播放音效函式
+    keys.forEach(key => key.addEventListener('click', playSound, false));
   </script>
 </body>
 
