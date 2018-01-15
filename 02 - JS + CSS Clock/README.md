@@ -74,6 +74,9 @@ const hoursDegrees = (hours / 12) * 360 + (mins / 12 / 60) * 360 + 90;
 if (secondsDegrees === 90) secondHand.style.transition = 'all 0s';
 else secondHand.style.transition = 'all 0.05s';
 
-if (minsDegrees === 90) minsHand.style.transition = 'all 0s';
-else minsHand.style.transition = 'all 0.1s';
+if (minsDegrees === 90) minHand.style.transition = 'all 0s';
+else minHand.style.transition = 'all 0.05s';
+
+if (hoursDegrees === 90) hourHand.style.transition = 'all 0s';
+else hourHand.style.transition = 'all 0.05s';
 ```
