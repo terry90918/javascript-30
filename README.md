@@ -8,7 +8,7 @@ JavaScirpt30 是 **Wes Bos** 推出的一個 30 天挑戰。項目免費提供�
 ## 目錄
 
 1. [x] - [JavaScript Drum Kit](https://tpwilovepanda.github.io/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/)
-1. [x] - [JS and CSS Clock](https://tpwilovepanda.github.io/JavaScript30/01%20-%20JS%and%20CSS%20Clock/)
+1. [x] - [JS and CSS Clock](https://tpwilovepanda.github.io/JavaScript30/02%20-%20JS%20+%20CSS%20Clock/)
 1. [ ] - CSS Variables
 1. [ ] - Array Cardio Day 1
 1. [ ] - Flex Panel Gallery
