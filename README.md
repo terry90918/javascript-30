@@ -7,35 +7,33 @@ JavaScirpt30 是 **Wes Bos** 推出的一個 30 天挑戰。項目免費提供�
 
 ## 目录
 
-第 x 天 | 題目名稱 | 完成 / 未完成
---- | --- | ---
-01 | JavaScript Drum Kit | [x]
-02 | JS and CSS Clock | [ ]
-03 | CSS Variables | [ ]
-04 | Array Cardio Day 1 | [ ]
-05 | Flex Panel Gallery | [ ]
-06 | Type Ahead | [ ]
-07 | Array Cardio Day 2 | [ ]
-08 | Fun with HTML5 Canvas | [ ]
-09 | Dev Tools Domination | [ ]
-10 | Hold Shift and Check Checkboxes | [ ]
-11 | Custom Video Player | [ ]
-12 | Key Sequence Detection | [ ]
-13 | Slide in on Scroll | [ ]
-14 | JavaScript References VS Copying | [ ]
-15 | LocalStorage | [ ]
-16 | Mouse Move Shadow | [ ]
-17 | Sort Without Articles | [ ]
-18 | Adding Up Times with Reduce | [ ]
-19 | Webcam Fun | [ ]
-20 | Speech Detection | [ ]
-21 | Geolocation | [ ]
-22 | Follow Along Link Highlighter | [ ]
-23 | Speech Synthesis | [ ]
-24 | Sticky Nav | [ ]
-25 | Event Capture, Propagation, Bubbling and Once | [ ]
-26 | Stripe Follow Along Nav | [ ]
-27 | Click and Drag | [ ]
-28 | Video Speed Controller | [ ]
-29 | Countdown Timer | [ ]
-30 | Whack A Mole | [ ]
+1. [x] - JavaScript Drum Kit
+1. [ ] - JS and CSS Clock
+1. [ ] - CSS Variables
+1. [ ] - Array Cardio Day 1
+1. [ ] - Flex Panel Gallery
+1. [ ] - Type Ahead
+1. [ ] - Array Cardio Day 2
+1. [ ] - Fun with HTML5 Canvas
+1. [ ] - Dev Tools Domination
+1. [ ] - Hold Shift and Check Checkboxes
+1. [ ] - Custom Video Player
+1. [ ] - Key Sequence Detection
+1. [ ] - Slide in on Scroll
+1. [ ] - JavaScript References VS Copying
+1. [ ] - LocalStorage
+1. [ ] - Mouse Move Shadow
+1. [ ] - Sort Without Articles
+1. [ ] - Adding Up Times with Reduce
+1. [ ] - Webcam Fun
+1. [ ] - Speech Detection
+1. [ ] - Geolocation
+1. [ ] - Follow Along Link Highlighter
+1. [ ] - Speech Synthesis
+1. [ ] - Sticky Nav
+1. [ ] - Event Capture, Propagation, Bubbling and Once
+1. [ ] - Stripe Follow Along Nav
+1. [ ] - Click and Drag
+1. [ ] - Video Speed Controller
+1. [ ] - Countdown Timer
+1. [ ] - Whack A Mole
