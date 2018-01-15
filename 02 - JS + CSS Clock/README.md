@@ -17,19 +17,30 @@
 
 ### `let` & `const`
 
-對於ES6新增的區域變數宣告與常數宣告，我知道的是const需要的是一開始就指定值，且不可再被指定，但在之前的經驗裡，function內我還是會放let來做變數的宣告，實際上若該值不會再被變動，應該是用const做宣告比較好的。
+> 可以參考 [卡斯伯 - ES6 開始的新生活 let, const](https://wcc723.github.io/javascript/2017/12/20/javascript-es6-let-const/)
 
 ### `Date()`
 
 取得時間的函數，一定要搭配 `new` 來使用 `new Date()`。
 
-* `date.getSeconds()`：取得當前秒
-* `date.getMinutes()`：取得當前分鐘
-* `date.getHours()`：取得當前小時
+* `date.getSeconds()`：取得當前秒。
+* `date.getMinutes()`：取得當前分鐘。
+* `date.getHours()`：取得當前小時。
 
 ### `setInterval()`
 
 定時器，有兩個參數 `setInterval(callback, time)`，第一個是要執行的 `function`，第二個是時間（毫秒）。
+
+## `setData()`
+
+1. 創建 Date 對象。
+1. 獲取當前時間的小時、分鐘、秒。
+1. 利用此刻的數據，計算每個指針對應的角度。
+1. 模擬真實的時針，計算每一分鐘對時針的角度影響，使時針可以緩慢地移動。
+
+```js
+const hoursDegrees = (hours / 12) * 360 + (mins / 12 / 60) * 360 + 90;
+```
 
 ## CSS
 
